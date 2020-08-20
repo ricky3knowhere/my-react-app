@@ -20,7 +20,7 @@ function LoginPage(props) {
                     <div class="form-group">
                         <label for="password">Password</label>
                         <input className="form-control" type ={ visible ? "text" : "password" } id="password"/>
-                        <input className="form-control mt-2 mr-2" type="checkbox" checked={visible} onChange ={showPassword} />
+                        <input className="mt-2 mr-2" type="checkbox" checked={visible} onChange ={showPassword} />
                         show password
                     </div>
                     <div className="d-flex justify-content-end mt-2">
